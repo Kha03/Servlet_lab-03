@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+.form-submit {
+	background-color: #3d5afe;
+	border: 1px solid #000;
+	padding: 10px;
+	width: 800px;
+	color: #fff;
+}
+
+.form-submit .form-submit__row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.form-submit .form-submit__row span{
+	margin-left: 10px;
+}
+.form-submit__row .form-submit__label {
+	width: 130px;
+}
+
+.form-submit__btn {
+	display: flex;
+	justify-content: center;
+	gap:  10px;
+}
