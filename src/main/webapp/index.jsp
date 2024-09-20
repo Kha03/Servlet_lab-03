@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-	<form action="" class="form-submit">
+	<form action="registration-form" class="form-submit" method="get">
 		<div class="form-submit__row">
 			<label class="form-submit__label" for="firstName">First Name</label>
 			<input type="text" class="form-submit__input" name="firstName">
@@ -141,30 +141,30 @@
 				<tr>
 					<td>1</td>
 					<td>Class X</td>
-					<td><input type="text" class="max-char"></td>
-					<td><input type="text" class="perc"></td>
-					<td><input type="text" class="year"></td>
+					<td><input type="text" class="max-char" name="x_char"></td>
+					<td><input type="text" class="perc" name="x_perc"></td>
+					<td><input type="text" class="year" name="x_year"></td>
 				</tr>
 				<tr>
 					<td>2</td>
 					<td>Class XII</td>
-					<td><input type="text" class="max-char"></td>
-					<td><input type="text" class="perc"></td>
-					<td><input type="text" class="year"></td>
+					<td><input type="text" class="max-char" name="xx_char"></td>
+					<td><input type="text" class="perc" name="xx_perc"></td>
+					<td><input type="text" class="year" name="xx_year"></td>
 				</tr>
 				<tr>
 					<td>3</td>
 					<td>Graduation</td>
-					<td><input type="text" class="max-char"></td>
-					<td><input type="text" class="perc"></td>
-					<td><input type="text" class="year"></td>
+					<td><input type="text" class="max-char" name="gra_char"></td>
+					<td><input type="text" class="perc" name="gra_perc"></td>
+					<td><input type="text" class="year" name="gra_year"></td>
 				</tr>
 				<tr>
 					<td>4</td>
 					<td>Masters</td>
-					<td><input type="text" class="max-char"></td>
-					<td><input type="text" class="perc"></td>
-					<td><input type="text" class="year"></td>
+					<td><input type="text" class="max-char" name="mas_char"></td>
+					<td><input type="text" class="perc" name="mas_perc"></td>
+					<td><input type="text" class="year" name="mas_year"></td>
 				</tr>
 			</table>
 		</div>
@@ -183,10 +183,6 @@
 			<div>
 				<label for="B.com">B.com</label> <input type="radio" name="apply"
 					value="B.com" />
-			</div>
-			<div>
-				<label for="B.Sc">B.Sc</label> <input type="radio" name="apply"
-					value="B.Sc" />
 			</div>
 			<div>
 				<label for="B.A">B.A</label> <input type="radio" name="apply"
